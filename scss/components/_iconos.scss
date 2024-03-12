@@ -1,0 +1,10 @@
+.icono-wpp{
+    position: fixed;
+    right: 25px;
+    bottom: 35px;
+
+    transition: 1s;
+    &:hover{
+        transform: rotate(360deg);
+    }
+}

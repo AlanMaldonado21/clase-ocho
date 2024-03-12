@@ -1,0 +1,86 @@
+.gradiente-lineal-container {
+    background-image: linear-gradient(to right, #F2FD7A, #CFE217);
+    margin: 25px;
+    border-radius: 5px;
+    padding: 25px;
+    display: flex;
+
+    .coder-beca {
+        margin-right: 25px;
+
+        h1 {
+            color: #1A1A1A;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            width: 50%;
+            font-weight: bold;
+
+            // transform: rotate
+            transform: rotate(-30deg);
+
+            transition: 1s;
+            
+            &:hover{
+            transform: rotate(10deg) translateX(-80px);
+            }
+        }
+
+        p {
+            color: #1A1A1A;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            font-size: 14px;
+            width: 80%;
+              // transform: rotate
+              transform: rotate(1deg);
+        }
+    }
+
+    .card-black-beca {
+        background-color: #1A1A1A;
+        padding: 15px;
+        border-radius: 5px;
+
+        // transform translate (X,Y)
+        // transform: translate(-50px, 80px);
+        transform: translateY(60px) rotate(3deg);
+
+        // sombra
+        box-shadow: -2px 3px 5px 3px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: -2px 3px 5px 3px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: -2px 3px 5px 3px rgba(0, 0, 0, 0.5);
+
+        // fin sombra
+        transition: 1s;
+        &:hover{
+            transform: rotate(10deg) translateX(-80px);
+        }
+        h2 {
+            color: #F8F8F8;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        p {
+            color: #F8F8F8;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            font-size: 13px;
+        }
+
+        ul {
+            li {
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #F8F8F8;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: yellow;
+            font-size: 15px;
+        }
+    }
+}

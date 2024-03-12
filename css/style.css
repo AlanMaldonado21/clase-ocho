@@ -1,0 +1,103 @@
+body {
+  background-color: #1A1A1A;
+}
+
+.gradiente-lineal, .gradiente-radial {
+  margin-top: 25px;
+  display: block;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  padding: 25px;
+  background-image: linear-gradient(to top, gray, black);
+  transform: scale(0.5);
+}
+.gradiente-lineal:hover, .gradiente-radial:hover {
+  background-image: linear-gradient(to top, #1A1A1A, #1A1A1A);
+  border: 1px solid gray;
+}
+
+.gradiente-radial {
+  background: rgb(52, 177, 159);
+  background: radial-gradient(circle, rgb(52, 177, 159) 0%, rgb(229, 233, 204) 96%);
+}
+
+.icono-wpp {
+  position: fixed;
+  right: 25px;
+  bottom: 35px;
+  transition: 1s;
+}
+.icono-wpp:hover {
+  transform: rotate(360deg);
+}
+
+.gradiente-lineal-container {
+  background-image: linear-gradient(to right, #F2FD7A, #CFE217);
+  margin: 25px;
+  border-radius: 5px;
+  padding: 25px;
+  display: flex;
+}
+.gradiente-lineal-container .coder-beca {
+  margin-right: 25px;
+}
+.gradiente-lineal-container .coder-beca h1 {
+  color: #1A1A1A;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  width: 50%;
+  font-weight: bold;
+  transform: rotate(-30deg);
+  transition: 1s;
+}
+.gradiente-lineal-container .coder-beca h1:hover {
+  transform: rotate(10deg) translateX(-80px);
+}
+.gradiente-lineal-container .coder-beca p {
+  color: #1A1A1A;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  width: 80%;
+  transform: rotate(1deg);
+}
+.gradiente-lineal-container .card-black-beca {
+  background-color: #1A1A1A;
+  padding: 15px;
+  border-radius: 5px;
+  transform: translateY(60px) rotate(3deg);
+  box-shadow: -2px 3px 5px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: -2px 3px 5px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -2px 3px 5px 3px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+}
+.gradiente-lineal-container .card-black-beca:hover {
+  transform: rotate(10deg) translateX(-80px);
+}
+.gradiente-lineal-container .card-black-beca h2 {
+  color: #F8F8F8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.gradiente-lineal-container .card-black-beca p {
+  color: #F8F8F8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+}
+.gradiente-lineal-container .card-black-beca ul li {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #F8F8F8;
+}
+.gradiente-lineal-container .card-black-beca a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

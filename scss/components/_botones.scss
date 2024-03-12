@@ -1,0 +1,31 @@
+body{
+    background-color: #1A1A1A;
+}
+
+.gradiente-lineal{
+    margin-top: 25px; 
+    display: block;
+    width: 150px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 25px;
+    // La dirrección , color , color
+    background-image: linear-gradient(to top, gray, black);
+
+    transform: scale(0.5);
+
+    &:hover{
+        background-image: linear-gradient(to top, #1A1A1A, #1A1A1A);
+        border: 1px solid gray;
+    }
+
+}
+
+.gradiente-radial{
+    @extend .gradiente-lineal;
+    background: rgb(52,177,159);
+    background: radial-gradient(circle, rgba(52,177,159,1) 0%, rgba(229,233,204,1) 96%);
+}
+
