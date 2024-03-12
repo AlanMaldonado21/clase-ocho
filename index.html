@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoderHouse | Clase 08</title>
+    <!-- LINK DE AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- LINK ANIMATE.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
     <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <!-- GRADIENTES -->
-    <a href="#" class="gradiente-lineal">Enviar</a>
-    <a href="#" class="gradiente-radial">Plataforma</a>
+    <a href="#" class="gradiente-lineal animate__animated animate__jackInTheBox">Enviar</a>
+    <a href="#" class="gradiente-radial animate__animated animate__fadeInDown" >Plataforma</a>
 
-    <section class="gradiente-lineal-container">
-        
+    <section class="gradiente-lineal-container" data-aos="flip-left">
+
         <div class="coder-beca">
             <h1>¿Qué es la CoderBeca?</h1>
-            <p>Nuestra misión es democratizar la educación de calidad en Latinoamérica. Para eso, te ofrecemos una CoderBeca del 70% para que puedas capacitarte y crecer profesionalmente.</p>
+            <p>Nuestra misión es democratizar la educación de calidad en Latinoamérica. Para eso, te ofrecemos una
+                CoderBeca del 70% para que puedas capacitarte y crecer profesionalmente.</p>
         </div>
 
         <div class="card-black-beca">
             <h2>¿Cómo accedo?</h2>
-            <p>El acceso a la CoderBeca es automático y para todos, solo tenés que cumplir con 2 requisitos una vez dentro del curso:</p>
+            <p>El acceso a la CoderBeca es automático y para todos, solo tenés que cumplir con 2 requisitos una vez
+                dentro del curso:</p>
             <ul>
                 <li>Entregar tus proyectos prácticos en tiempo y forma</li>
                 <li>Cumplir con el 85% de asistencia a las clases en vivo</li>
@@ -31,9 +41,16 @@
             <a href="#">Ver cursos y carreras</a>
         </div>
     </section>
-    
+
     <a href="#" class="icono-wpp">
         <img src="assets/icono-wpp.png" alt="icono wpp">
     </a>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
